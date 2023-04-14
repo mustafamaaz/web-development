@@ -1,0 +1,50 @@
+.flexcontainer{
+    display:flex;
+    
+}
+.subcontainer{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+#flexitem2{
+    text-align:center;
+    font-family:'Varela Round';
+    font-size:28px;
+    font-weight:bolder;
+    background-color:plum;
+    height:80px;
+    width:100%;
+    align-self:flex-start;
+    
+}
+#flexitem3{
+    text-align:center;
+    font-family:'Varela Round';
+    font-size:28px;
+    font-weight:bolder;
+    background-color:sandybrown;
+    height:420px;
+    width:100%;
+    align-self:center;
+}
+#flexitem4{
+    text-align:center;
+    font-family:'Varela Round';
+    font-size:28px;
+    font-weight:bolder;
+    background-color:yellow;
+    height:80px;
+    width:100%;
+    align-self:flex-end;
+}
+nav{
+    height:580px;
+    width:25%;
+    text-align:center;
+    font-family:'Varela Round';
+    font-size:28px;
+    font-weight:bolder;
+    background-color:turquoise;
+}

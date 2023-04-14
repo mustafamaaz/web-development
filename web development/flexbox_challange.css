@@ -1,0 +1,96 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+  font-weight:bold;
+    color: rgba(0, 0, 0, 0.616);
+  
+     
+}
+
+.container {
+    border: 2px solid black;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    background:  linear-gradient(to right, rgba(196, 1, 255, 0.479) , rgba(0, 60, 255, 0.507)); ;
+    
+    
+}
+ 
+
+#item1  {
+    background:  linear-gradient(to left, rgb(196, 1, 255) , rgba(0, 60, 255, 0.692)); ;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 7px;
+    width:33.33%;
+    height: 190px;
+    top: 50%;
+    right: 50%;
+ 
+}
+
+#item2{
+    background:  linear-gradient(to left, rgb(196, 1, 255) , rgba(0, 60, 255, 0.692)); ;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 7px;
+    width: 25%;
+    height: 60px;
+    
+}
+
+#item3{
+    background:  linear-gradient(to left, rgb(196, 1, 255) , rgba(0, 60, 255, 0.692)); ;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 7px;
+    width: 20%;
+    height: 60px;
+    
+}
+
+.child1 {
+    display: flex;
+    
+    
+}
+ 
+
+
+
+#item4{
+    background:  linear-gradient(to left, rgb(196, 1, 255) , rgba(0, 60, 255, 0.692)); ;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 6px;
+    margin: 7px;
+    width:33.33%;
+    height: 20px;
+    font-size:smaller;
+   
+}
+#item5{
+    background:  linear-gradient(to left, rgb(196, 1, 255) , rgba(0, 60, 255, 0.692)); ;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 7px;
+    width: 25%;
+    height: 20px;
+    font-size:smaller;
+}
+
+#item6{
+    background:  linear-gradient(to left, rgb(196, 1, 255) , rgba(0, 60, 255, 0.692)); ;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 7px;
+    width: 20%;
+    height: 20px;
+    font-size:smaller;
+}

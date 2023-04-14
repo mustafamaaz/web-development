@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat( Auto-fill, minmax(200px,1fr));
+            /* repeat( Auto-fill, minmax(200px,1fr)) this function use as a reponsiveness when we increase  or decrease the size o device auto adject the box roe colum vise auto-fill means that jitny box ak row mw aty hy itna ajaey */
+            /* grid-template-rows:  repeat(2,1fr) ; */
+            grid-gap: 10px;
+            /* fr is unit of grid-template it means all box take their proportional size */
+            /* one function is repeate(3, 1 fr) */
+            grid-auto-rows: minmax(100px,auto);    
+            /* row means height */
+            grid-auto-columns: minmax(50px,auto);
+            /* comlume means width */
+        }
+        .item1{
+            background-color: rgb(194, 104, 104);
+            border: 5px solid green;
+            border-radius: 5px;
+
+        }
+        #item3{
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">  cum ab optio. Hic amet culpa pariatur velit est. Neque ex fugit quibusdam, ad debitis molestias fugiat quisquam reprehenderit sint quos voluptas nam et recusandae aliquam voluptate accusantium fuga veniam ratione vero cumque esse? Nostrum reprehenderit aspernatur eaque cum quae eius sunt unde commodi optio ab in tenetur similique, iure inventore illum distinctio culpa repellat qui minima autem consectetur quis libero asperiores consequuntur! Dolor natus molestias voluptates accusamus aspernatur. Consequatur dolorum, nemo nihil nesciunt quam corporis suscipit perspiciatis officiis eius laborum ducimus totam reprehenderit!</div>
+        
+        <div class="item1"> tempore deleniti ducimus provident magnam. Consectetur in illum sit eum reprehenderit temporibus natus voluptas minima eligendi vitae, pariatur at aliquid provident saepe fugiat rerum nemo repellendus! Optio dolorum ipsum, fuga, ad totam autem perferendis rem quod porro necessitatibus tempora quis ipsa. Nihil repellendus consectetur ut laudantium asperiores numquam porro est veritatis aliquam itaque voluptatem ex exercitationem veniam unde voluptate earum nulla accusantium fuga, expedita aperiam reiciendis natus rerum nesciunt. Nobis, praesentium iure doloribus accusamus, sint beatae temporibus molestias ab ipsa eius, assumenda quo dolore repudiandae corrupti eos autem sit aliquid nemo labore vitae sunt tempora ea excepturi. In laborum sapiente, facilis repellat, voluptas eum autem ipsum, ut culpa possimus perspiciatis fugit perferendis numquam? Cumque neque eaque consequatur saepe porro dignissimos quasi obcaecati laboriosam quaerat inventore officiis cum, maxime ut praesentium reprehenderit voluptas voluptatum sit illum qui mollitia laudantium! Corporis quos neque numquam suscipit autem itaque culpa nostrum aspernatur facilis. Nisi, assumenda? Similique ullam voluptate, reprehenderit aliquid ab commodi odio neque? Ex distinctio temporibus est molestias minus obcaecati sequi. Nulla tempore velit cumque quis? </div>
+        <div class="item1" id="item3">dabba3</div>
+        <div class="item1">dabba4</div>
+        <div class="item1">dabba5</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body{
+    background: #bc4639;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink: 10;
+    margin: 50px;
+    align-content: center;
+}
+.box{
+    width: 30%;
+    height: 60%;
+    align-self: center;
+    text-align: center;
+    border-radius: 10px;
+    background: #f3e0dc;
+}
+h2{
+    text-decoration: none;
+    font-family: cursive;
+    color: #5c2018;
+}
+p{
+    color: #5c2018;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    text-align: center;
+}
+img{
+    object-fit: fill;
+}
+.imagebox1{
+    clip-path: circle(43.6% at 49% 50%);
+    max-width: 66%;  
+    height: auto;
+    width: min-content; 
+    align-self: center;
+}
+.imagebox2{
+    clip-path: circle(41.8% at 53% 50%);
+    max-width: 95%;  
+    height: auto; 
+    width: min-content;
+    align-self: center;
+}
+.imagebox3{
+    clip-path: circle(34.5% at 50% 48%);
+    max-width: 90%;  
+    height: auto; 
+    width: min-content;
+    align-self: center;
+}
+button{
+    height: 40px;
+    width: 60%;
+    margin-bottom: 40px;
+    font-size: 20px;
+    align-content: center;
+    border-radius: 15px;
+    font-family: cursive;
+    color: #f3e0dc;
+    background: #4285f4;
+    border: none;
+}
+.box:hover{
+    box-shadow: 5px 5px 20px #d4a59a;
+}
+
+button:hover{
+    box-shadow: 2px 2px 10px #a882ca;
+    cursor: pointer;
+    
+}
+.imagebox3:hover{
+    cursor: pointer;
+}
+.imagebox2:hover{
+    cursor: pointer;
+}
+.imagebox1:hover{
+    cursor: pointer;
+}
